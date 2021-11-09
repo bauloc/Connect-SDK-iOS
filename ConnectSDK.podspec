@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
     sp.private_header_files = "core/**/*_Private.h"
     sp.requires_arc = true
 
+    sp.dependency 'GCDWebServer'
     sp.dependency 'ConnectSDK/no-arc'
   end
 
